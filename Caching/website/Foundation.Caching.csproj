@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Foundation.Caching</RootNamespace>
+    <AssemblyName>Foundation.Caching</AssemblyName>
+    <PublishTargetType>website</PublishTargetType>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\_Build\props\_PublishTargetType.props" />
+  <ItemGroup>
+    <PackageReference Update="Sitecore.Mvc" Version="10.0.0" />
+  </ItemGroup>
+</Project>
